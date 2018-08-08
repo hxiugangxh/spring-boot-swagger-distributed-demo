@@ -12,16 +12,3 @@ eureka:
       defaultZone:   http://localhost:8080/eureka/
   instance:
     status-page-url: http://localhost:8081/swagger-ui.html
-##  日志
-logging:
-  level:
-    root: info
-    com:
-      netflix:
-        eureka: 'off'
-        discovery:  'off'
-
-## 关闭管理类接口的安全认证
-management:
-  security:
-    enabled: false

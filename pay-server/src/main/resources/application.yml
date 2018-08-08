@@ -1,14 +1,3 @@
-zuul:
-  routes:
-    pay-server:
-      path: /pay/**
-    order-server:
-      path: /order/**
-  host:
-    connect-timeout-millis: 10000
-    socket-timeout-millis: 60000
-  ribbon-isolation-strategy: thread
-
 spring:
   session:
     store-type: none
